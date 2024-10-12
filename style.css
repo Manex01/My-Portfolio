@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff5733;
+}
+
+
+/* Hero Section Styles */
+.hero {
+    height: 100vh;
+    background: url('images/Freepik.jpeg.jpeg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.hero-content .btn:hover {
+    background-color: #c70039;
+}
+
+/*    time  */
+/* .container {
+    transform: translateY(-80px); /* Moves the container 20px upward 
+  } */
+  .container {
+    margin-top: -50px; /* Moves the container 20px upward */
+    margin-left: 20px;
+  }
+  
+  
+
+.clock{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    /* border: 2px solid #ff5733; */
+    border-radius: 5px;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.clock span{
+    font-size: 30px;
+    width: 65px;
+    color:#fff;
+    align-items: center;
+    
+}
+
+.clock span::after{
+    font-size: 8px;
+    bottom: -5px;
+    left: 50%;
+}
+
+#hrs::after{
+    content: 'HOURS';
+}
+
+#min::after{
+    content: 'MINS';
+}
+
+#sec::after{
+    content: 'SEC';
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text p {
+    line-height: 1.6;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px;
+    color: #f4f4f4;
+    background-color: #242121;
+    text-align: center;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactForm label {
+    display: block;
+    color: #f4f4f4;
+    margin: 10px 0 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #c70039;
+}
