@@ -219,3 +219,55 @@ nav ul li a:hover {
 #contactForm button:hover {
     background-color: #c70039;
 }
+
+/* Mobile screen */
+@media (max-width:480px){
+    /* header content*/
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+     
+    nav ul {
+        display: flex;
+        align-items: self-start;
+    }
+    
+    /* nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem; 
+    }
+    
+    header {
+        padding: 10px;
+    }   */
+
+    .hero-content h2 {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    /* time */
+    .clock span{
+        font-size: 18px;
+        width: 40px;
+    }
+    .clock span::after{
+        font-size: 4px;
+    }
+
+    /* content*/
+    .portfolio-item {
+        width: 100%;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+}
