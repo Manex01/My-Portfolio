@@ -27,7 +27,7 @@
 }
 
 // Usage: Continuously auto-typing text
-const textToType = "Welcome to my portfolio. Let's create something amazing!";
+const textToType = "Welcome to ManexGraphixHUB. Let's create something amazing!";
 const typingSpeed = 100;  // Speed in milliseconds
 const restartDelay = 1000; // Delay before restarting the typing (in milliseconds)
 
