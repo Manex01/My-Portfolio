@@ -151,6 +151,18 @@ nav ul li a:hover {
     font-size: 1.2rem;
 }
 
+#portfolio{
+    transition:all ease 0.5s;
+    -webkit-transition:all ease 0.5s;
+    transform:scale(1);
+    -webkit-transform:scale(1);
+}
+
+.portfolio-gallery img:hover{
+    transform:scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
 /* About Section Styles */
 #about {
     padding: 50px;
